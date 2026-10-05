@@ -4,7 +4,15 @@
 
 # Modelo de Riesgo Crediticio con Enfoque MLOps
 
+[![Demo en vivo](https://img.shields.io/badge/🚀_Demo_en_vivo-Streamlit-FF4B4B?style=for-the-badge)](https://credit-risk-mlops-6raxgffebxa6zgub5wkpge.streamlit.app/)
+
 Sistema de predicción del comportamiento de pago de clientes de crédito, desarrollado con un enfoque completo de MLOps que abarca el análisis exploratorio de datos, la ingeniería de características, el modelamiento supervisado, el monitoreo del modelo en producción y su despliegue mediante una API contenerizada con Docker.
+
+## Demo en vivo
+
+**👉 [Abrir el panel de monitoreo en Streamlit](https://credit-risk-mlops-6raxgffebxa6zgub5wkpge.streamlit.app/)**
+
+Sin instalar nada, puedes ver el panel de monitoreo de *data drift* del modelo: el semáforo de alertas, las métricas por variable (KS, PSI, Jensen-Shannon y Chi²), la comparación de distribuciones entre el periodo histórico y el actual, la evolución del drift en el tiempo y las recomendaciones automáticas.
 
 ## Caso de negocio
 
